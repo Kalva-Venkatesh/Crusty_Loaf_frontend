@@ -1,5 +1,5 @@
 // This is the base URL of your backend server
-const API_URL = 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
 /**
  * A helper function for making authenticated API calls.
