@@ -11,13 +11,13 @@ const Footer = ({ setPage }) => {
             <p>&copy; {new Date().getFullYear()} The Crusty Loaf. All Rights Reserved.</p>
           </div>
           <div className="flex justify-center space-x-4 my-4 md:my-0">
-            <a href="#" className="text-amber-100 hover:text-white transition-colors">
+            <a href="/" className="text-amber-100 hover:text-white transition-colors">
               <Instagram size={24} />
             </a>
-            <a href="#" className="text-amber-100 hover:text-white transition-colors">
+            <a href="/" className="text-amber-100 hover:text-white transition-colors">
               <Facebook size={24} />
             </a>
-            <a href="#" className="text-amber-100 hover:text-white transition-colors">
+            <a href="/" className="text-amber-100 hover:text-white transition-colors">
               <Twitter size={24} />
             </a>
           </div>

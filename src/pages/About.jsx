@@ -74,15 +74,15 @@ const AboutPage = () => {
           Find Us On Social Media
         </h2>
         <div className="flex justify-center space-x-8">
-          <a href="#" className="flex flex-col items-center text-gray-700 hover:text-amber-800 transition-colors">
+          <a href="/" className="flex flex-col items-center text-gray-700 hover:text-amber-800 transition-colors">
             <Instagram size={40} />
             <span className="mt-2">@TheCrustyLoaf</span>
           </a>
-          <a href="#" className="flex flex-col items-center text-gray-700 hover:text-amber-800 transition-colors">
+          <a href="/" className="flex flex-col items-center text-gray-700 hover:text-amber-800 transition-colors">
             <Facebook size={40} />
             <span className="mt-2">/TheCrustyLoaf</span>
           </a>
-          <a href="#" className="flex flex-col items-center text-gray-700 hover:text-amber-800 transition-colors">
+          <a href="/" className="flex flex-col items-center text-gray-700 hover:text-amber-800 transition-colors">
             <Twitter size={40} />
             <span className="mt-2">@CrustyLoafBakery</span>
           </a>
